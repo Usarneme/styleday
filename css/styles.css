@@ -1,4 +1,49 @@
 html {
   box-sizing: border-box;
+  font-size: 10px;
 }
 
+body {
+  font-size: 1.6rem;
+  margin: 0;
+  padding: 0;
+  color: rgb(228, 222, 135);
+}
+
+h1 {
+  padding-top: 0;
+  margin-top: 0;
+  font-size: 2.5rem;
+}
+
+section {
+  background: repeating-linear-gradient(11deg, cyan, purple);
+  min-height: 100vh;
+  position: relative;
+}
+
+.main {
+  padding: 15px;
+  padding-top: 40px;
+}
+
+.inner {
+  background: rgba(255,255,255,0.125);
+  border-radius: 20px;
+  padding: 2rem;
+  margin: 1rem 0 1rem 0;
+  text-shadow: 1px 1px black;
+}
+
+.cat {
+  text-align: center;
+}
+
+footer {
+  background: linear-gradient(to right, purple 5%, cyan 20%, purple 50%, purple 80%, cyan 100%);
+  padding: 13px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
