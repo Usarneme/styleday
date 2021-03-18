@@ -1,13 +1,37 @@
 html {
   box-sizing: border-box;
   font-size: 10px;
+  --main-bg: purple;
+  margin: 0;
+  padding: 0;
+}
+
+.dark {
+  --backgroundLayerOne: #16171b;
+  --backgroundLayerTwo: #2b2c30;
+  --backgroundLayerThree: #505050;
+  --backgroundLayerFour: #000;
+  --backgroundLayerFive: #2c2d31;
+  --textColorOne: #b5b4a1;
+  --textColorTwo: #f4f4f4;
+}
+
+.light {
+  --backgroundLayerOne: #BCBCBC;
+  --backgroundLayerTwo: rgba(0,0,0,0.25);
+  --backgroundLayerThree: #E1E1E1;
+  --backgroundLayerFour: #999999;
+  --backgroundLayerFive: rgba(0,0,0,0.125);
+  --textColorOne: #414141;
+  --textColorTwo: #262626;
 }
 
 body {
+  background: var(--backgroundLayerOne);
   font-size: 1.6rem;
   margin: 0;
   padding: 0;
-  color: rgb(228, 222, 135);
+  color: var(--textColorOne);
 }
 
 h1 {
@@ -21,6 +45,19 @@ section {
   background: repeating-linear-gradient(11deg, cyan, purple);
   min-height: 100vh;
   position: relative;
+}
+
+section.container {
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.container {
+  margin: 1rem auto;
+}
+
+.jumbotron {
+  padding-top: 1rem;
 }
 
 .main {
@@ -58,11 +95,16 @@ section {
     ".  .  pp pp";
 }
 
+.card {
+  background: var(--backgroundLayerThree);
+  margin-top: 2rem;
+}
+
 footer {
   background: linear-gradient(to right, purple 5%, cyan 20%, purple 50%, purple 80%, cyan 100%);
   padding: 13px;
-  position: absolute;
+  /* position: absolute;
   bottom: 0;
   left: 0;
-  right: 0;
+  right: 0; */
 }

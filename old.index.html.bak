@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <title>Styles Day Page</title>
+</head>
+<body>
+  <section class="container">
+    <header>
+      <nav></nav>
+    </header>
+
+    <div class="container main">
+      <div class="jumbotron">
+        <h1>Welcome to the page!</h1>
+      </div>
+
+      <div class="container p-4">
+        <div class="row g-5">
+          <div class="col inner">
+            <p>Altirhinus Ouranosaurus Glishades Charonosaurus Huabeisaurus Hypselorhachis Indosaurus Ugrosaurus Euronychodon Protarchaeopteryx Tylosteus Telmatosaurus Kerberosaurus Caenagnathasia Doratodon Dracorex Cumnoria Itemirus Aletopelta Astrodon Nanyangosaurus Tazoudasaurus Heptasteornis Tonganosaurus Campylodon Aorun Byronosaurus Pekinosaurus Teinurosaurus Homalocephale Melanorosaurus.</p>
+            <p>Altirhinus Ouranosaurus Glishades Charonosaurus Huabeisaurus Hypselorhachis Indosaurus Ugrosaurus Euronychodon Protarchaeopteryx Tylosteus Telmatosaurus Kerberosaurus Caenagnathasia Doratodon Dracorex Cumnoria Itemirus Aletopelta Astrodon Nanyangosaurus Tazoudasaurus Heptasteornis Tonganosaurus Campylodon Aorun Byronosaurus Pekinosaurus Teinurosaurus Homalocephale Melanorosaurus.</p>      
+          </div>
+          <div class="col inner">
+            <p>Altirhinus Ouranosaurus Glishades Charonosaurus Huabeisaurus Hypselorhachis Indosaurus Ugrosaurus Euronychodon Protarchaeopteryx Tylosteus Telmatosaurus Kerberosaurus Caenagnathasia Doratodon Dracorex Cumnoria Itemirus Aletopelta Astrodon Nanyangosaurus Tazoudasaurus Heptasteornis Tonganosaurus Campylodon Aorun Byronosaurus Pekinosaurus Teinurosaurus Homalocephale Melanorosaurus.</p>
+            <p>Altirhinus Ouranosaurus Glishades Charonosaurus Huabeisaurus Hypselorhachis Indosaurus Ugrosaurus Euronychodon Protarchaeopteryx Tylosteus Telmatosaurus Kerberosaurus Caenagnathasia Doratodon Dracorex Cumnoria Itemirus Aletopelta Astrodon Nanyangosaurus Tazoudasaurus Heptasteornis Tonganosaurus Campylodon Aorun Byronosaurus Pekinosaurus Teinurosaurus Homalocephale Melanorosaurus.</p>
+          </div>
+          <div class="col inner" id="cat">
+            <div class="grid-img">
+              <img src="http://placekitten.com/200/200" />
+            </div>
+            <div class="grid-h3">
+              <h3 >Look at that cat!</h3>          
+            </div>
+            <div class="grid-p">
+              <p >Altirhinus Ouranosaurus Glishades Charonosaurus Huabeisaurus Hypselorhachis Indosaurus Ugrosaurus Euronychodon Protarchaeopteryx Tylosteus Telmatosaurus Kerberosaurus Caenagnathasia Doratodon Dracorex Cumnoria Itemirus Aletopelta Astrodon Nanyangosaurus Tazoudasaurus Heptasteornis Tonganosaurus Campylodon Aorun Byronosaurus Pekinosaurus Teinurosaurus Homalocephale Melanorosaurus. Altirhinus Ouranosaurus Glishades Charonosaurus Huabeisaurus Hypselorhachis Indosaurus Ugrosaurus Euronychodon Protarchaeopteryx Tylosteus Telmatosaurus Kerberosaurus Caenagnathasia Doratodon Dracorex Cumnoria Itemirus Aletopelta Astrodon Nanyangosaurus Tazoudasaurus Heptasteornis Tonganosaurus Campylodon Aorun Byronosaurus Pekinosaurus Teinurosaurus Homalocephale Melanorosaurus.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>&copy; 2021</footer>
+  </section>
+
+  <script
+			  src="https://code.jquery.com/jquery-3.6.0.min.js"
+			  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+			  crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js" ></script>
+</body>
+</html>

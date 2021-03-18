@@ -1,56 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-  <link rel="stylesheet" href="css/styles.css" type="text/css">
-  <title>Styles Day Page</title>
+  <title>My First Week at Epicodus</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
 </head>
-<body>
+<body id="body" class="light">
   <section class="container">
-    <header>
-      <nav></nav>
-    </header>
 
-    <div class="container main">
-      <div class="jumbotron">
-        <h1>Welcome to the page!</h1>
-      </div>
-
-      <div class="container p-4">
-        <div class="row g-5">
-          <div class="col inner">
-            <p>Altirhinus Ouranosaurus Glishades Charonosaurus Huabeisaurus Hypselorhachis Indosaurus Ugrosaurus Euronychodon Protarchaeopteryx Tylosteus Telmatosaurus Kerberosaurus Caenagnathasia Doratodon Dracorex Cumnoria Itemirus Aletopelta Astrodon Nanyangosaurus Tazoudasaurus Heptasteornis Tonganosaurus Campylodon Aorun Byronosaurus Pekinosaurus Teinurosaurus Homalocephale Melanorosaurus.</p>
-            <p>Altirhinus Ouranosaurus Glishades Charonosaurus Huabeisaurus Hypselorhachis Indosaurus Ugrosaurus Euronychodon Protarchaeopteryx Tylosteus Telmatosaurus Kerberosaurus Caenagnathasia Doratodon Dracorex Cumnoria Itemirus Aletopelta Astrodon Nanyangosaurus Tazoudasaurus Heptasteornis Tonganosaurus Campylodon Aorun Byronosaurus Pekinosaurus Teinurosaurus Homalocephale Melanorosaurus.</p>      
-          </div>
-          <div class="col inner">
-            <p>Altirhinus Ouranosaurus Glishades Charonosaurus Huabeisaurus Hypselorhachis Indosaurus Ugrosaurus Euronychodon Protarchaeopteryx Tylosteus Telmatosaurus Kerberosaurus Caenagnathasia Doratodon Dracorex Cumnoria Itemirus Aletopelta Astrodon Nanyangosaurus Tazoudasaurus Heptasteornis Tonganosaurus Campylodon Aorun Byronosaurus Pekinosaurus Teinurosaurus Homalocephale Melanorosaurus.</p>
-            <p>Altirhinus Ouranosaurus Glishades Charonosaurus Huabeisaurus Hypselorhachis Indosaurus Ugrosaurus Euronychodon Protarchaeopteryx Tylosteus Telmatosaurus Kerberosaurus Caenagnathasia Doratodon Dracorex Cumnoria Itemirus Aletopelta Astrodon Nanyangosaurus Tazoudasaurus Heptasteornis Tonganosaurus Campylodon Aorun Byronosaurus Pekinosaurus Teinurosaurus Homalocephale Melanorosaurus.</p>
-          </div>
-          <div class="col inner" id="cat">
-            <div class="grid-img">
-              <img src="http://placekitten.com/200/200" />
-            </div>
-            <div class="grid-h3">
-              <h3 >Look at that cat!</h3>          
-            </div>
-            <div class="grid-p">
-              <p >Altirhinus Ouranosaurus Glishades Charonosaurus Huabeisaurus Hypselorhachis Indosaurus Ugrosaurus Euronychodon Protarchaeopteryx Tylosteus Telmatosaurus Kerberosaurus Caenagnathasia Doratodon Dracorex Cumnoria Itemirus Aletopelta Astrodon Nanyangosaurus Tazoudasaurus Heptasteornis Tonganosaurus Campylodon Aorun Byronosaurus Pekinosaurus Teinurosaurus Homalocephale Melanorosaurus. Altirhinus Ouranosaurus Glishades Charonosaurus Huabeisaurus Hypselorhachis Indosaurus Ugrosaurus Euronychodon Protarchaeopteryx Tylosteus Telmatosaurus Kerberosaurus Caenagnathasia Doratodon Dracorex Cumnoria Itemirus Aletopelta Astrodon Nanyangosaurus Tazoudasaurus Heptasteornis Tonganosaurus Campylodon Aorun Byronosaurus Pekinosaurus Teinurosaurus Homalocephale Melanorosaurus.</p>
-            </div>
-          </div>
-        </div>
+    <div class="jumbotron">
+      <h1>My First Week at Epicodus</h1>
+      <p>
+        I've almost finished my first week at Epicodus. Here are some of the things I've learned so far:
+      </p>
+      <button type="button" class="btn btn-primary" onclick="changeTheme()">Switch Theme</button>
+    </div>
+  
+    <div class="card">
+      <div class="card-body">
+        <h2 class="card-title">Command Line</h2>
+        <ul class="card-text">
+          <li>Navigating my documents through the command line.</li>
+          <li>Creating new files and folders through the command line.</li>
+          <li>Moving and deleting files and folders through the command line.</li>
+          <li>Retrieving my current location from the command line.</li>
+        </ul>
       </div>
     </div>
-
-    <footer>&copy; 2021</footer>
+  
+    <div class="card">
+  
+  <h2 class="card-title">Git and GitHub</h2>
+    <ul class="card-text">
+      <li>Initializing local Git repository, and create remote GitHub repositories.</li>
+      <li>Tracking and committing changes with Git.</li>
+      <li>Pushing a local Git repository to a remote GitHub repository.</li>
+      <li>Branching a project to make multiple copies.</li>
+      <li>Merging multiple Git branches back together.</li>
+      <li>Cloning down a project from GitHub to my local machine.</li>
+      <li>Publishing a website on GitHub pages.</li>
+    </ul>
+    </div>
+    <div class="card">
+  
+      <h2 class="card-title">HTML</h2>
+    <ul class="card-text">
+      <li>Using HTML tags to create websites.</li>
+      <li>Indenting and organizing HTML correctly.</li>
+      <li>Incorporating block elements.</li>
+      <li>Including inline elements.</li>
+      <li>Using both spans and divs.</li>
+      <li>Adding classes and ID's to style HTML with CSS.</li>
+    </ul>
+    </div>
+    <div class="card">
+  
+      <h2 class="card-title">CSS</h2>
+    <ul class="card-text">
+      <li>Creating a stylesheet.</li>
+      <li>Using CSS selectors to specify an HTML element.</li>
+      <li>Writing CSS rules to style particular elements in my HTML.</li>
+      <li>Floating elements to create columns, sidebars, and other alignments.</li>
+      <li>Padding, margins, and the box model.</li>
+      <li>How CSS cascades to apply styles.</li>
+      <li>The importance of responsive design.</li>
+      <li>How to use media queries to dynamically change the appearance of a site based on the user's viewport.</li>
+    </ul>
+    </div>
+    <div class="card">
+  
+      <h2 class="card-title">Bootstrap</h2>
+    <ul class="card-text">
+      <li>Downloading and installing Bootstrap.</li>
+      <li>Adding Bootstrap styles to a website.</li>
+      <li>Navigating Bootstrap documentation.</li>
+      <li>Creating websites with Bootstrap.</li>
+    </ul>
+  </div>
+    <div class="container">
+      <h2>Partnering</h2>
+        <blockquote class="blockquote">
+          <p>"It's been really good working with you!"</p>
+          <h4 class="blockquote-footer">My partner the first day</h4>
+        </blockquote>
+    </div>
   </section>
-
-  <script
-			  src="https://code.jquery.com/jquery-3.6.0.min.js"
-			  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-			  crossorigin="anonymous"></script>
-  <script src="js/bootstrap.min.js" ></script>
+  <script>
+    function changeTheme() {
+      const currentColor = document.getElementById("body").classList[0];
+      document.getElementById("body").classList = currentColor === "light" ? "dark" : "light";
+    }
+  </script>
 </body>
 </html>
