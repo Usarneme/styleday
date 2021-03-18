@@ -1,29 +1,33 @@
 html {
   box-sizing: border-box;
   font-size: 10px;
-  --main-bg: purple;
   margin: 0;
   padding: 0;
+  --textColorThree: black;
 }
 
 .dark {
   --backgroundLayerOne: #16171b;
-  --backgroundLayerTwo: #2b2c30;
+  --backgroundLayerTwo: #3a3b41;
   --backgroundLayerThree: #505050;
   --backgroundLayerFour: #000;
   --backgroundLayerFive: #2c2d31;
   --textColorOne: #b5b4a1;
   --textColorTwo: #f4f4f4;
+  --gradientOne: cyan;
+  --gradientTwo: purple;
 }
 
 .light {
   --backgroundLayerOne: #BCBCBC;
-  --backgroundLayerTwo: rgba(0,0,0,0.25);
-  --backgroundLayerThree: #E1E1E1;
+  --backgroundLayerTwo: #CDCDCD;
+  --backgroundLayerThree: #ebe2e2;
   --backgroundLayerFour: #999999;
-  --backgroundLayerFive: rgba(0,0,0,0.125);
+  --backgroundLayerFive: rgba(197, 197, 197);
   --textColorOne: #414141;
-  --textColorTwo: #262626;
+  --textColorTwo: #5e5d61;
+  --gradientOne: purple;
+  --gradientTwo: cyan;
 }
 
 body {
@@ -34,22 +38,53 @@ body {
   color: var(--textColorOne);
 }
 
-h1 {
+h1, h2 {
   padding-top: 0;
   margin-top: 0;
   font-size: 2.5rem;
-  color: maroon;
+  color: var(--textColorTwo);
 }
 
 section {
-  background: repeating-linear-gradient(11deg, cyan, purple);
+  background: repeating-linear-gradient(45deg, var(--gradientOne) 3%, var(--gradientTwo) 97%);
   min-height: 100vh;
   position: relative;
 }
 
 section.container {
   margin: 0 auto;
-  padding: 1rem;
+  padding: 1rem 5rem;
+}
+
+@media all and (min-width: 768px) {
+  section.container {
+    padding: 5rem 15rem;
+  }
+}
+
+@media all and (min-width: 900px) {
+  section.container {
+    padding: 5rem 25rem;
+  }
+}
+
+nav.navbar {
+  max-width: 900px;
+  margin: 0 auto;
+  background: var(--backgroundLayerThree);
+  opacity: 0.5;
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+svg {
+  min-height: 40px;
+  width: 40px;
+  color: var(--textColorTwo);
 }
 
 .container {
@@ -63,14 +98,6 @@ section.container {
 .main {
   padding: 15px;
   padding-top: 40px;
-}
-
-.inner {
-  background: rgba(255,255,255,0.125);
-  border-radius: 20px;
-  padding: 2rem;
-  /* margin: 1rem 0 1rem 0; */
-  text-shadow: 1px 1px black;
 }
 
 .grid-img {
@@ -96,15 +123,14 @@ section.container {
 }
 
 .card {
-  background: var(--backgroundLayerThree);
+  background: var(--backgroundLayerTwo);
   margin-top: 2rem;
+  padding-top: 0.5rem!important;
 }
 
 footer {
   background: linear-gradient(to right, purple 5%, cyan 20%, purple 50%, purple 80%, cyan 100%);
   padding: 13px;
-  /* position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0; */
+  margin-top: 20rem;
+  color: var(--textColorThree);
 }
