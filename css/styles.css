@@ -35,8 +35,26 @@ section {
   text-shadow: 1px 1px black;
 }
 
-.cat {
-  text-align: center;
+.grid-img {
+  grid-area: mg;
+}
+
+.grid-h3 {
+  grid-area: hh;
+}
+
+.grid-p {
+  grid-area: pp;
+}
+
+#cat {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas:
+    "mg mg hh hh"
+    "mg mg pp pp"
+    ".  .  pp pp";
 }
 
 footer {
